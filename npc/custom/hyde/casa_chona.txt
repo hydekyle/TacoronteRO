@@ -1,1 +1,1 @@
-prontera,157,191,4	itemshop	ItemShop	101,7179,501:50,502:200,503:550,
+prontera,147,175,3	itemshop	ItemShop	101,7179,501:50,502:200,503:550,
