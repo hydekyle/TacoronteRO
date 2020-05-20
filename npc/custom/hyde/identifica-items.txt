@@ -1,4 +1,4 @@
-prontera,143,175,5	script	test	100,{
+prontera,143,175,5	script	Identificador	100,{
 	getinventorylist;
 	npctalk "Te identifico!";
 	for( set .@i,0; .@i < @inventorylist_count; set .@i, .@i + 1 ) {
