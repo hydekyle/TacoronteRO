@@ -1,0 +1,9 @@
+prontera,143,175,5	script	test	100,{
+	getinventorylist;
+	npctalk "Te identifico!";
+	for( set .@i,0; .@i < @inventorylist_count; set .@i, .@i + 1 ) {
+		if ( @inventorylist_identify[.@i] == 1 ) continue;
+		delitem2 @inventorylist_id[.@i],1,0,0,0,0,0,0,0;
+		getitem @inventorylist_id[.@i],1;
+	}
+}
