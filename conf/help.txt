@@ -3,7 +3,7 @@
 // <command>: "<help message>"
 // This file uses libconfig syntax.
 
-help: "Params: <command>\n" "Shows help for specified command."
+help: "You have already seen what it does"
 noask: "Auto rejects deals/invites."
 gmotd: "Broadcasts the Message of The Day to all players."
 me: "Params: <message>\n" "Displays normal text as a message in this format: *name message* (like /me in mIRC)."
