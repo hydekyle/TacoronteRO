@@ -57,9 +57,7 @@ cmd_fild03,145,191,3,3	monster	Shining Plant	1083,1,1800000,900000
 cmd_fild04,221,120,120,40	monster	Aster	1266,45
 cmd_fild04,0,0	monster	Alligator	1271,40
 cmd_fild04,0,0	monster	Crab	1073,20
-cmd_fild04,0,0	monster	Raggler	1254,20
 cmd_fild04,0,0	monster	Shellfish	1074,20
-cmd_fild04,221,120,120,40	monster	Sea Otter	1323,20
 
 //==================================================
 // cmd_fild05 - Border of Papuchica Forest
