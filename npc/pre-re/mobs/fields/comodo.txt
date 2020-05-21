@@ -37,7 +37,7 @@ cmd_fild02,0,0	monster	Shellfish	1074,35
 cmd_fild02,93,82,40,80	monster	Shellfish	1074,5,180000
 cmd_fild02,0,0	monster	Mobster	1313,1
 cmd_fild02,200,130,150,40	monster	Seal	1317,230
-cmd_fild02,93,82,40,80	monster	Seal	1317,40,16000
+cmd_fild02,93,82,40,80	monster	Seal	1317,40,60000
 
 //==================================================
 // cmd_fild03 - Zenhai Marsh
