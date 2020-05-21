@@ -23,7 +23,7 @@ prt_in,28,73,4	script	Wise Old Woman#eAcustom	78,{
 	disable_items;
 	mes "[Madre Sombra]";
 	mes "Soy la mamá de Sombrace.";
-	mes "Antes me dedicaba a sacar cartas...;
+	mes "Antes me dedicaba a sacar cartas...";
 	mes "¡pero ahora ahora con el coronavirus hemos cerrado el negocio!";
 	next;
 	switch(select("Sácame la puta carta.:¿Y a mí que me cuentas?:Adiós.")) {
