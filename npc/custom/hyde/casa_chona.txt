@@ -1,2 +1,2 @@
 prontera,147,175,6	shop	Casa Chona	101,533:250,601:60,501:50,502:200,503:550,645:800,656:1500,657:3000,1750:1,1751:3,1752:3
-cmd_fild04,33,83,6	duplicate(Casa Chona)	Chona#focas	618
+cmd_fild04,30,85,6	duplicate(Casa Chona)	Chona#focas	101
