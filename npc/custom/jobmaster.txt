@@ -275,7 +275,6 @@ function	Job_Menu	{
 			.@selected = select(.@menu$) - 1;
 			if( .@selected < 0 || .@selected >= .@opt_cnt )
 				close;
-			next;
 			mes .NPCName$;
 		}
 		.@class = getelementofarray(getarg(0), .@selected);
