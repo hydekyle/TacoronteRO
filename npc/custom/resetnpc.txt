@@ -11,11 +11,11 @@
 //=	Changed set -> setarray, Improved text with F_InsertPlural
 //= 1.5 Added sc_end_class to reset related status changes [sader1992]
 //============================================================
-prontera,150,193,4	script	Reset Girl	124,{
+prontera,150,193,4	script	Reset Girl	643,{
 	//	 		Skills,	Stats,	Both,	Limit
 	setarray .@Reset,	300000,	300000,	500000,	0;
 	mes "[La resetista]";
-	mes "Â¿Necesitas un reseteo?";
+	mes "¿Necesitas un reseteo?";
 	mes "Stats: "+ callfunc("F_InsertComma",.@Reset[1]) +"z";
 	mes "Skills: "+ callfunc("F_InsertComma",.@Reset[0]) +"z";
 	mes "Ambos: "+ callfunc("F_InsertComma",.@Reset[2]) +"z";
@@ -33,6 +33,6 @@ prontera,150,193,4	script	Reset Girl	124,{
 		ResetSkill;
 	}
 	if(.@i&2) ResetStatus;
-	mes "Â¡Resitiado wey!";
+	mes "¡Resitiado wey!";
 	close;
 }
