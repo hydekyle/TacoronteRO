@@ -230,7 +230,7 @@ pay_arche,55,123,0	script	Kafra Employee::kaf_payon3	4_F_KAFRA1,{
 
 // Prontera
 //============================================================
-prontera,164,175,7	script	Kafra Employee::kaf_prontera0	112,{
+prontera,164,175,3	script	Kafra Employee::kaf_prontera0	112,{
 	cutin "kafra_01",2;
 	callfunc "F_KafSet";
 	mes "[Kafra Becaria]";
