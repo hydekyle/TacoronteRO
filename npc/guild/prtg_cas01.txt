@@ -24,7 +24,7 @@
 
 	if (.@GID == 0) {
 		mes "[ Edict of the Divine Rune-Midgarts Kingdom ]";
-		mes "El castillo está esperando a ser proclamado.
+		mes "El castillo está esperando a ser proclamado."
 		close;
 	}
 	if (getcharid(2) == .@GID) {
