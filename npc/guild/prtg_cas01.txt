@@ -23,44 +23,15 @@
 	set .@GID, GetCastleData("prtg_cas01",1);
 
 	if (.@GID == 0) {
-		mes "[ Edict of the Divine Rune-Midgarts Kingdom ]";
-		mes " ";
-		mes "1. Follow the ordinance of The Divine Rune-Midgarts Kingdom, ";
-		mes "We declare that";
-		mes "there is no formal master of this castle.";
-		mes " ";
-		mes "2. To the one who can ";
-		mes "overcome all trials";
-		mes "and destroy the Emperium,";
-		mes "the king will endow the one with";
-		mes "ownership of this castle.";
+		mes "[ WAR OF EMPERIUM ]";
+		mes "El castillo está esperando a ser proclamado.
 		close;
 	}
 	if (getcharid(2) == .@GID) {
-		mes "[ Echoing Voice ]";
-		mes "Brave ones...";
-		mes "Do you wish to return to your honorable place?";
-		next;
-		if(select("Return to the guild castle.:Quit.") == 1) {
-			close2;
-			if (getcharid(2) == GetCastleData("prtg_cas01",1)) {
-				warp "prtg_cas01",96,173;
-				end;
-			}
-			end;
-		}
-		close;
+		warp "prtg_cas01",96,173;
 	}
-	mes "[ Edict of the Divine Rune-Midgarts Kingdom ]";
-	mes " ";
-	mes "1. Follow the ordinance of The Divine Rune-Midgarts Kingdom, ";
-	mes "we approve that this place is in";
-	mes "the private prossession of ^ff0000"+GetGuildName(.@GID)+"^000000 Guild.";
-	mes " ";
-	mes "2. The guild Master of ^ff0000"+GetGuildName(.@GID)+"^000000 Guild is";
-	mes "^ff0000"+GetGuildMaster(.@GID)+"^000000";
-	mes "If there is anyone who objects to this,";
-	mes "prove your strength and honor with a steel blade in your hand.";
+	mes "[ WAR OF EMPERIUM ]";
+	mes "Castillo de ^ff0000"+GetGuildName(.@GID)+"^000000 Guild.";
 	close;
 
 OnRecvCastlePt01:
@@ -96,7 +67,7 @@ prtg_cas01,45,46,4	duplicate(InsideFlagsPR1)	Kriemhild#14	722
 
 // Guild Flag (Town)
 //============================================================
-prontera,155,190,8	duplicate(InsideFlagsPR1)	Kriemhild#15	722
+prontera,155,195,4	duplicate(InsideFlagsPR1)	Kriemhild#15	722
 
 // Kafra Employee
 //============================================================
