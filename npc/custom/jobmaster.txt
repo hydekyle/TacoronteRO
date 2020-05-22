@@ -275,7 +275,6 @@ function	Job_Menu	{
 			.@selected = select(.@menu$) - 1;
 			if( .@selected < 0 || .@selected >= .@opt_cnt )
 				close;
-			mes .NPCName$;
 		}
 		.@class = getelementofarray(getarg(0), .@selected);
 		if ((.@class == Job_Super_Novice || .@class == Job_Super_Baby) &&
@@ -290,8 +289,6 @@ function	Job_Menu	{
 		}
 		// Confirm the Class
 		Confirm_Change(.@class, .@opt_cnt > 1);
-		next;
-		mes .NPCName$;
 	}
 	return;
 }
@@ -326,7 +323,7 @@ function	Confirm_Change	{
 		close;
 	}
 	mes "¿Quieres cambiar a ^0055FF"+jobname(.@class)+"^000000?";
-	.@job_option$ = " ~ Change into ^0055FF"+jobname(.@class)+"^000000 class";
+	.@job_option$ = " ~ Cambiar a ^0055FF"+jobname(.@class)+"^000000 class";
 	if( .@class == Job_Novice_High)
 		.@job_option$ = " ~ ^0055FFRebirth^000000";
 
