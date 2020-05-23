@@ -1,1 +1,1 @@
-prontera,147,204,0	warp	prtBeach	4,2,cmd_fild04,33,82
+prontera,147,203,0	warp	prtBeach	4,2,cmd_fild04,33,82
